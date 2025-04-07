@@ -93,4 +93,39 @@ Once you have p and q, calculate:
 
     d = e⁻¹ mod φ(n) (modular inverse of e)
 
-To solve this problem I improve python code:
+To solve this problem I improve python code the file name is easy.py 
+
+Using venv (built into Python)
+
+#Create the virtual environment (replace 'ctf' with your preferred name)
+    
+    python3 -m venv ~/venvs/ctf
+
+Activate the environment
+
+    source ~/venvs/ctf/bin/activate
+
+Your terminal prompt should now show the environment name
+ 
+     (ctf)-user@host:~$
+
+Install packages while the environment is active
+
+    pip install pycryptodome gmpy2
+
+
+┌──(ctf)─(navocybro㉿kali)-[/home]
+
+└─$ python easy.py easy_rsa.txt
+
+Decrypting...
+
+FLAG: squ1rrel{who's_your_favorite_mathemetician?}
+                                                                                                                                                                       
+┌──(ctf)─(navocybro㉿kali)-[/home]
+
+└─$ 
+
+Deactivate when you're done
+    
+    deactivate
