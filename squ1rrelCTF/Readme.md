@@ -9,7 +9,8 @@ A simple RSA implementation where we're given the public key (n, e) and cipherte
 Given Problem: 
 “The security of RSA relies on the practical difficulty of factoring the product of two large prime numbers, the ‘factoring problem’” -Wikipedia"
 given  rsa_easy.py 
-#################################################################################################################3
+#################################################################################################################
+
 import random
 from sympy import nextprime, mod_inverse
 
@@ -49,4 +50,8 @@ if __name__ == "__main__":
     f.write(f"e: {public_key[1]} \n")
     f.write(f"c: {ciphertext}")
     f.close()
-#######################################################################################
+    
+###############################################################################################
+@@!!!@@@!!!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!@@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!@@@@@@@@@@@@@!!!!!!!
+################### Give easy_rsa.txt###################
+
